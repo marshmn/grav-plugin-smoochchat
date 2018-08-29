@@ -1,0 +1,31 @@
+name: Smoochchat
+version: 0.1.0
+description: Smooch chat web messenger integration
+icon: plug
+author:
+  name: Matt Marsh
+  email: matt@crazedbytes.net
+homepage: https://github.com/marshmn/grav-plugin-smoochchat
+demo: http://demo.yoursite.com
+keywords: grav, plugin, etc
+bugs: https://github.com/marshmn/grav-plugin-smoochchat/issues
+docs: https://github.com/marshmn/grav-plugin-smoochchat/blob/develop/README.md
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+    text_var:
+      type: text
+      label: PLUGIN_SMOOCHCHAT.TEXT_VARIABLE
+      help: PLUGIN_SMOOCHCHAT.TEXT_VARIABLE_HELP
