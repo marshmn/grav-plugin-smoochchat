@@ -29,3 +29,7 @@ form:
       type: text
       label: PLUGIN_SMOOCHCHAT.TEXT_VARIABLE
       help: PLUGIN_SMOOCHCHAT.TEXT_VARIABLE_HELP
+    app_id:
+      type: text
+      label: PLUGIN_SMOOCHCHAT.APP_ID
+      help: PLUGIN_SMOOCHCHAT.APP_ID_HELP

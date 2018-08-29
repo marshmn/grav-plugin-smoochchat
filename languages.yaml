@@ -1,4 +1,6 @@
 en:
   PLUGIN_SMOOCHCHAT:
+    APP_ID: App ID
+    APP_ID_HELP: ID of Smooch app to connect messenger to
     TEXT_VARIABLE: Text Variable
     TEXT_VARIABLE_HELP: Text to add to the top of a page
