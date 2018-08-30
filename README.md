@@ -1,8 +1,8 @@
-# Smoochchat Plugin
+# Smooch Chat Plugin
 
 **This README.md file should be modified to describe the features, installation, configuration, and general usage of this plugin.**
 
-The **Smoochchat** Plugin is for [Grav CMS](http://github.com/getgrav/grav). Smooch chat web messenger integration
+The **Smooch Chat** Plugin is for [Grav CMS](http://github.com/getgrav/grav). Smooch chat web messenger integration
 
 ## Installation
 
@@ -14,7 +14,7 @@ The simplest way to install this plugin is via the [Grav Package Manager (GPM)](
 
     bin/gpm install smoochchat
 
-This will install the Smoochchat plugin into your `/user/plugins` directory within Grav. Its files can be found under `/your/site/grav/user/plugins/smoochchat`.
+This will install the Smooch Chat plugin into your `/user/plugins` directory within Grav. Its files can be found under `/your/site/grav/user/plugins/smoochchat`.
 
 ### Manual Installation
 

@@ -4,10 +4,10 @@ namespace Grav\Plugin;
 use Grav\Common\Plugin;
 
 /**
- * Class SmoochchatPlugin
+ * Class SmoochChatPlugin
  * @package Grav\Plugin
  */
-class SmoochchatPlugin extends Plugin
+class SmoochChatPlugin extends Plugin
 {
     /**
      * Indicate that we want to act on the onPluginsInitialized event
