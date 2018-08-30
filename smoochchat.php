@@ -36,5 +36,21 @@ class SmoochchatPlugin extends Plugin
         if ($this->isAdmin()) {
             return;
         }
+
+        $this->enable([
+            'onAssetsInitialized' => ['onAssetsInitialized', 0]
+        ]);
+    }
+
+    /**
+     * Add Smooch JavaScript code during asset processing stage
+     */
+    public function onAssetsInitialized()
+    {
+        $this->grav['assets']->addInlineJs(
+            "var smooch_chat_app_id = '" . $this->config->get('plugins.smoochchat.app_id') . "';"
+        );
+
+        $this->grav['assets']->addJs("plugin://smoochchat/js/smooch.js");
     }
 }
