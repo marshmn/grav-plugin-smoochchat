@@ -1,5 +1,7 @@
-# v0.1.0
-##  08/28/2018
+# Changelog
 
-1. [](#new)
-    * ChangeLog started...
+> NOTE: this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+
+## Unreleased
+### Added
+ - Basic integration of the Smooch.io web messenger
