@@ -1,15 +1,15 @@
 name: Smooch Chat
 version: 0.1.0
-description: Smooch chat web messenger integration
-icon: plug
+description: Smooch.io live chat web messenger integration
+icon: comment-alt
 author:
   name: Matt Marsh
   email: matt@crazedbytes.net
 homepage: https://github.com/marshmn/grav-plugin-smoochchat
-demo: http://demo.yoursite.com
-keywords: grav, plugin, etc
+demo: https://demos.crazedbytes.net/smoochchat
+keywords: grav, plugin, live chat, smooch
 bugs: https://github.com/marshmn/grav-plugin-smoochchat/issues
-docs: https://github.com/marshmn/grav-plugin-smoochchat/blob/develop/README.md
+docs: https://github.com/marshmn/grav-plugin-smoochchat/blob/master/README.md
 license: MIT
 
 form:
