@@ -1,7 +1,7 @@
 name: Smooch Chat
 version: 0.1.0
 description: Smooch.io live chat web messenger integration
-icon: comment-alt
+icon: comments
 author:
   name: Matt Marsh
   email: matt@crazedbytes.net
