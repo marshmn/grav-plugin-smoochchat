@@ -4,6 +4,10 @@ This **Smooch Chat** plugin provides a way to add a live chat facility to any [G
 integrating the [Smooch.io](https://smooch.io/) Web Messenger. This allows you to chat to your visitors live in
 real-time.
 
+![](assets/screenshot.png)
+
+You can try out a [plugin demonstration](https://demos.crazedbytes.net/smoochchat) to see the user experience.
+
 ## Plugin Installation
 
 > NOTE: GPM or admin panel installation of this plugin is not yet available.  
